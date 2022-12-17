@@ -8,3 +8,6 @@
 
 # main.html
 ![main](https://user-images.githubusercontent.com/78644723/207385509-be137f5a-57f7-4802-ab40-5bfdbd978b84.PNG)
+
+# single.html
+![single](https://user-images.githubusercontent.com/78644723/208241778-ef22d9f5-e7a9-4924-8aa5-409508129e33.PNG)
