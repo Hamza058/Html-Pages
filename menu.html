@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Slider with Text</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <style>
+    div {
+      width: 100px;
+      height: 100px;
+      background: red;
+      transition: width 2s;
+    }
+
+    a {
+      font-size: 50px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="menuBar">
+    <a class='bx bx-menu' onclick="mm()"></a>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    function mm() {
+      if(document.getElementById("menuBar").style.width=="500px"){
+        document.getElementById("menuBar").style.width="100px";
+      }
+      else{
+        document.getElementById("menuBar").style.width="500px";
+      }
+    }
+  </script>
+</body>
+
+</html>
